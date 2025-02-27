@@ -14,7 +14,7 @@ import java.io.Serializable;
  */
 @Getter
 @Setter
-public class BoardResDTO{
+public class BoardResDTO implements Serializable {
     /** 게시글 기본키 */
     private String id;
 
